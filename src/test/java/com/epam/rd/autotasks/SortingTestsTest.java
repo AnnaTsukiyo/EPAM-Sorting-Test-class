@@ -50,6 +50,7 @@ public class SortingTestsTest {
 
     @Test
     public void testNullCarelessSorting() {
+
         JUnitCore junit = new JUnitCore();
         Result result = junit.run(NullCarelessSortingTestExtension.class);
 
@@ -70,6 +71,7 @@ public class SortingTestsTest {
 
     @Test
     public void testTrickySorting() {
+
         JUnitCore junit = new JUnitCore();
         Result result = junit.run(TrickySortingTestExtension.class);
 
