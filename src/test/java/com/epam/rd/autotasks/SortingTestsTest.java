@@ -105,5 +105,4 @@ public class SortingTestsTest {
         assertThat(sortedCaseFailure.getException(), instanceOf(AssertionError.class));
         assertThat(otherCasesFailure.getException(), instanceOf(AssertionError.class));
     }
-
 }
